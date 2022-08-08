@@ -9,7 +9,9 @@
 .welcome {
     background-color: rgb(247, 247, 247);
     padding: 50px;
+    padding-top: 50px;
 }
+
 
 .about-me h2 {
     float: left;
@@ -22,6 +24,7 @@
 .inner {
     background-color: rgb(247, 247, 247);
     padding: 28px;
+    border-radius: 25px;
 }
 .confetti-spirits {
     width: 100%;
@@ -30,6 +33,7 @@
 .inner-2 {
     background-color: rgb(247, 247, 247);
     padding: 28px;
+    border-radius: 20px;
 }
 
 .designs h2 {
