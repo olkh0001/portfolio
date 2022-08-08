@@ -32,15 +32,16 @@
             <img src="images/banner.jpg" class="img-fluid" alt="image of various shapes">
         </div>
         <div class="intro-info">
-            <div class="welcome text-center mb-5">
+            <div class="welcome text-center mb-5 p-5 mt-3">
                 <p>Welcome!</p>
                 <p>I create meaningful and user-friednly interfaces</p>
-                <button type="button" class="btn btn-primary mt-1">Check out designs</button>
+                <form style="display: inline" action="#" method="get">
+                    <button class="check-designs rounded-2 ps-4 pe-4 pt-2 pb-2">Check out designs</button>
             </div>
         </div>
         <div class="about-me text-center">
             <h2>About me</h2>
-            <img src="images/my-img.jpeg" class="img-thumbnail mt-4 rounded-5 border-0 svg-shadow shadow-primary shadow-intensity-lg" alt="image of Elena Olkhovskaia">
+            <img src="images/my-img.jpeg" class="img-thumbnail mt-4 rounded-5 border-0" alt="image of Elena Olkhovskaia">
             <p class="mt-3">
                 Hi there! I’m Elena Olkhovskaia.
                 Currently I study Interactive Media 
@@ -48,7 +49,8 @@
                 ON. I’m so passionate about UX/UI
                 design and coding. 
             </p>
-            <button type="button" class="btn btn-primary pe-5 ps-5">Read bio</button>
+            <form style="display: inline" action="#" method="get">
+                <button class="read-bio rounded-2 ps-5 pe-5 pt-2 pb-2">Read Bio</button>
         </div>
         <div class="designs">
             <h2>Designs</h2>
@@ -73,9 +75,11 @@
                 <input type="text" id="email" name="email"><br>
                 <label for="message">Your message</label><br>
                 <textarea id="message"></textarea><br>  
-                <button type="button" class="btn btn-primary mt-3">Submit</button>
             </form>
-
+            <div class="submit-btn text-center">
+                <form style="display: inline" action="#" method="get">
+                        <button class="read-bio rounded-2 ps-3 pe-3 pt-2 pb-2 mt-3">Submit</button>
+            </div>
         </div>
         <footer class="text-center">
             <i class="fa-brands fa-linkedin-in me-1"></i>
