@@ -105,6 +105,11 @@ footer {
         width: 70%;
     }
 
+    .about-me p {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
     .contact-me {
         padding-left: 110px;
         padding-right: 110px;
