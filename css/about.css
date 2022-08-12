@@ -41,9 +41,10 @@ footer {
         width: 70%;
     }
 
-    .about-me p {
-        margin-left: 120px;
-        margin-right: 120px;
+    .about-me-info {
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
     }
 
 }
@@ -59,7 +60,8 @@ footer {
 
     .about-me img {
         order: -2;
-        width: 100%;
+        width: 80%;
+        margin-left: 40px;
     }
 
     .about-me {
@@ -72,6 +74,12 @@ footer {
 
     .about-me p {
         order: -1;
-        margin: 0px 60px 0px 60px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .about-me p {
+        padding-right: 150px;
     }
 }
