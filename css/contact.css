@@ -1,3 +1,20 @@
+h1 {
+    font-family: 'Avenir', sans-serif;
+}
+
+h2 {
+    font-family: 'Avenir', sans-serif;                                        
+}
+
+h3 {
+    font-family: 'Avenir', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;                                           
+}
+
 .contact-me {
     margin-top: 3rem;
     margin-left: 30px;
