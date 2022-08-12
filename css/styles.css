@@ -1,23 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
-h1 {
-    font-family: 'Avenir', sans-serif;
-}
-
-h2 {
-    font-family: 'Avenir', sans-serif;                                        
-}
-
-h3 {
-    font-family: 'Avenir', sans-serif;
-}
-
-p {
-    font-size: 18px;
-    font-family: 'Avenir', sans-serif;                                           
-}
 .wrapper {
     width: 90%;
     margin: 0 auto;
